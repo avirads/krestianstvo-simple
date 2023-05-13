@@ -1,15 +1,13 @@
 import { render } from 'solid-js/web';
-import { Selo } from 'krestianstvo';
-import Simple from './Simple.jsx';
+import { Selo } from "krestianstvo";
+import App from './App.jsx'
 
-render(
-  () => (
+render(() => (
     <Selo
-      nodeID={'simple'}
-      seloID={'1'}
-      component={Simple}
-      reflectorHost={'https://lcs-reflector.onrender.com/'}
+        nodeID={"simple"}
+        seloID={"1"}
+        component={App}
+        reflectorHost={"https://time.krestianstvo.org"}
     />
-  ),
-  document.getElementById('root')
-);
+
+), document.getElementById('root'));
