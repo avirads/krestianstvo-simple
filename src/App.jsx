@@ -1,13 +1,5 @@
 import { createLocalStore } from 'krestianstvo';
 
-//{
-//"id": {
-//"color": "",
-//"lng": "",
-//"lat": ""
-//}
-//}
-
 export default function App(props) {
   window.seloprops = props.selo;
   const [local, setLocal] = createLocalStore(
