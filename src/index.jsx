@@ -4,8 +4,8 @@ import App from './App.jsx'
 
 render(() => (
     <Selo
-        nodeID={"simple"}
-        seloID={"1"}
+        nodeID={"instance_name"}
+        seloID={"world_name"}
         component={App}
         reflectorHost={"https://time.krestianstvo.org"}
     />
